@@ -18,7 +18,6 @@ import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
-import com.coupleway.apps.mol.core.ui.theme.MoLTheme
 
 /**
  * Created by Hikmet Qedirov on 25.03.2024.

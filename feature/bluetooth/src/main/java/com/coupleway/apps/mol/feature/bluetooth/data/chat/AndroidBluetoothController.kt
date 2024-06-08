@@ -84,7 +84,7 @@ class AndroidBluetoothController(
     }
 
     private fun hasPermission(permission: String): Boolean {
-        return context.checkSelfPermission("") == PackageManager.PERMISSION_GRANTED
+        return context.checkSelfPermission(permission) == PackageManager.PERMISSION_GRANTED
     }
 
 }
