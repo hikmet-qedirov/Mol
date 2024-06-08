@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="nameless">Nameless</string>
+    <string name="scanned_devices">Scanned Devices</string>
+</resources>

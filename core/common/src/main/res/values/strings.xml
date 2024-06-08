@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="do_you_want_to_save_note">Do you want to save this note?</string>
+    <string name="do_you_want_to_delete_note">Do you want to delete this note?</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="confirm">Confirm</string>
+    <string name="warning">Warning</string>
+    <string name="error_occurred">Problem is determinate</string>
+    <string name="add_note">Add note</string>
+    <string name="your_note">Your note</string>
+    <string name="sort">Sort</string>
+    <string name="note_deleted">Note is deleted</string>
+    <string name="undo">Undo</string>
+    <string name="add_your_title">Add your title</string>
+    <string name="add_your_content">Add your content</string>
+</resources>
