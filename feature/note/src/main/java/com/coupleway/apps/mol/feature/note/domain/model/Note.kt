@@ -18,7 +18,7 @@ import com.coupleway.apps.mol.core.ui.theme.PurpleGrey80
 data class Note(
     @PrimaryKey val id: Int? = null,
     val title: String,
-    val content: String,
+    val content: String = "",
     val timestamp: Long,
     @ColorInt val color: Int
 ) {
