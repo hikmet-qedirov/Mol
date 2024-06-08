@@ -35,7 +35,7 @@ MoL is perfect for:
 The android app lets you:
 - Completely ad-free.
 - You can change your note background easily.
-- Take note: just add title and content. voala 
+- Take note: just add title and content. Voila! 
 - You can get notes with Bluetooth and share with your friends (soon).
 
 ## Screenshots
