@@ -23,6 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -55,9 +56,19 @@ fun NoteItem(
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Text(text = note.title)
+                Text(
+                    text = note.title,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .weight(1f)
+                )
                 IconButton(
-                    modifier = Modifier.size(24.dp), onClick = {
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .size(24.dp),
+                    onClick = {
                         onDeleteClick()
                     }) {
                     Icon(imageVector = Icons.Default.Delete, contentDescription = "")
@@ -67,9 +78,9 @@ fun NoteItem(
             Text(
                 text = note.content,
                 style = MaterialTheme.typography.bodyMedium,
-                maxLines = 1
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
             )
-
         }
     }
 }
